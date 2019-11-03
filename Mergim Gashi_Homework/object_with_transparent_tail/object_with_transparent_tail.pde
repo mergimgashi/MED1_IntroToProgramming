@@ -38,7 +38,7 @@ class Object {
 
    //drawing the object in each array where its tied to the loop counter i
    for (int i = 0; i < x.length; i++) {
-     fill(0,0,255);
+     fill(0,0,255,127); //adding the fourth number adds the alpha value, set it to 127 so its almost 50% transparent.
      noStroke();
      ellipse(x[i],y[i],i,i);
    }
